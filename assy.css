@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: double;
+}
+
+nav{
+    background-color: white;
+    padding: 20px;
+    color: rgb(24, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+     font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;  
+    
+}
+
+.nav-links li{
+margin-right:20px ;
+text-align: center;
+cursor: pointer;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative
+}
+
+li:hover{
+    color: #e71800
+}
+/* hero zection */
+.content{
+    text-align: left;
+    background-image: url(./assyment2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 551px;
+    top: 106px;
+    width: 1440px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    color:white ;
+    padding: 10px 19px 9px 18px;
+    flex-shrink: 0;
+
+
+    
+}
+
+#button-container{
+    text-align: right;
+    font-weight: bold ;
+    color: white;
+    }
+    
+    .my-button{
+        background-color: #e71800;
+        color: #fff;
+        font-weight: 600px;
+        padding: 14px 17px 15px 19px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px ;
+        border:none;
+    }
+
+    hr{
+        width: 220px;
+        margin-bottom: 30px;
+        background-color: rgb(230, 0, 0);
+        border-radius: 8px;
+        height: 7px;
+        border: none;
+        flex-shrink: 0;
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.column{
+    padding: 20px;
+
+}
+.active{
+    color: red;
+}
+
+.types{
+    color: #e71800;
+    font-weight: 600;
+    line-height: 19.2px;
+    size: 16px;
+}
+
+.pictures{
+    width: 407px;
+    height: 312;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 17px;
+    padding: 20px;
+}
+.deliver {
+    background-color: #FFBF14;
+}
+
+#deliver {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.deliver .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.my-botton{
+    background-color: #e71800;
+    font-weight: 500px;
+    padding: 14px 17px 15px 19px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px ;
+    border:none;
+
+
